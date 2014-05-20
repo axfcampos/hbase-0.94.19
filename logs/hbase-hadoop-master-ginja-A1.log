@@ -1,0 +1,277 @@
+Tue May 20 15:03:32 WEST 2014 Stopping hbase (via master)
+Tue May 20 15:04:32 WEST 2014 Starting master on ginja-A1
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 95266
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 65535
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 32000
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+2014-05-20 15:04:32,678 INFO org.apache.hadoop.hbase.util.VersionInfo: HBase 0.94.19
+2014-05-20 15:04:32,678 INFO org.apache.hadoop.hbase.util.VersionInfo: Subversion https://svn.apache.org/repos/asf/hbase/tags/0.94.19RC0 -r 1588997
+2014-05-20 15:04:32,678 INFO org.apache.hadoop.hbase.util.VersionInfo: Compiled by jenkins on Tue Apr 22 00:21:01 UTC 2014
+2014-05-20 15:04:32,790 DEBUG org.apache.hadoop.hbase.master.HMaster: Set serverside HConnection retries=140
+2014-05-20 15:04:32,971 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-1
+2014-05-20 15:04:32,971 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-1
+2014-05-20 15:04:32,972 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-1
+2014-05-20 15:04:32,972 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-1
+2014-05-20 15:04:32,973 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-1
+2014-05-20 15:04:32,974 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-1
+2014-05-20 15:04:32,974 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-1
+2014-05-20 15:04:32,975 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-1
+2014-05-20 15:04:32,975 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-1
+2014-05-20 15:04:32,975 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-1
+2014-05-20 15:04:32,986 INFO org.apache.hadoop.hbase.ipc.HBaseRpcMetrics: Initializing RPC Metrics with hostName=HMaster, port=60000
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:host.name=ginja-a1
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.version=1.6.0_27
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.vendor=Sun Microsystems Inc.
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.home=/usr/lib/jvm/java-6-openjdk-amd64/jre
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.class.path=/home/hadoop/hbase-0.94.19/conf:/usr/lib/jvm/java-6-openjdk-amd64/lib/tools.jar:/home/hadoop/hbase-0.94.19:/home/hadoop/hbase-0.94.19/hbase-0.94.19.jar:/home/hadoop/hbase-0.94.19/hbase-0.94.19-tests.jar:/home/hadoop/hbase-0.94.19/lib/activation-1.1.jar:/home/hadoop/hbase-0.94.19/lib/asm-3.1.jar:/home/hadoop/hbase-0.94.19/lib/avro-1.5.3.jar:/home/hadoop/hbase-0.94.19/lib/avro-ipc-1.5.3.jar:/home/hadoop/hbase-0.94.19/lib/commons-beanutils-1.7.0.jar:/home/hadoop/hbase-0.94.19/lib/commons-beanutils-core-1.8.0.jar:/home/hadoop/hbase-0.94.19/lib/commons-cli-1.2.jar:/home/hadoop/hbase-0.94.19/lib/commons-codec-1.4.jar:/home/hadoop/hbase-0.94.19/lib/commons-collections-3.2.1.jar:/home/hadoop/hbase-0.94.19/lib/commons-configuration-1.6.jar:/home/hadoop/hbase-0.94.19/lib/commons-digester-1.8.jar:/home/hadoop/hbase-0.94.19/lib/commons-el-1.0.jar:/home/hadoop/hbase-0.94.19/lib/commons-httpclient-3.1.jar:/home/hadoop/hbase-0.94.19/lib/commons-io-2.1.jar:/home/hadoop/hbase-0.94.19/lib/commons-lang-2.5.jar:/home/hadoop/hbase-0.94.19/lib/commons-logging-1.1.1.jar:/home/hadoop/hbase-0.94.19/lib/commons-math-2.1.jar:/home/hadoop/hbase-0.94.19/lib/commons-net-1.4.1.jar:/home/hadoop/hbase-0.94.19/lib/core-3.1.1.jar:/home/hadoop/hbase-0.94.19/lib/guava-11.0.2.jar:/home/hadoop/hbase-0.94.19/lib/hadoop-core-1.0.4.jar:/home/hadoop/hbase-0.94.19/lib/hamcrest-core-1.3.jar:/home/hadoop/hbase-0.94.19/lib/high-scale-lib-1.1.1.jar:/home/hadoop/hbase-0.94.19/lib/httpclient-4.1.2.jar:/home/hadoop/hbase-0.94.19/lib/httpcore-4.1.3.jar:/home/hadoop/hbase-0.94.19/lib/jackson-core-asl-1.8.8.jar:/home/hadoop/hbase-0.94.19/lib/jackson-jaxrs-1.8.8.jar:/home/hadoop/hbase-0.94.19/lib/jackson-mapper-asl-1.8.8.jar:/home/hadoop/hbase-0.94.19/lib/jackson-xc-1.8.8.jar:/home/hadoop/hbase-0.94.19/lib/jamon-runtime-2.3.1.jar:/home/hadoop/hbase-0.94.19/lib/jasper-compiler-5.5.23.jar:/home/hadoop/hbase-0.94.19/lib/jasper-runtime-5.5.23.jar:/home/hadoop/hbase-0.94.19/lib/jaxb-api-2.1.jar:/home/hadoop/hbase-0.94.19/lib/jaxb-impl-2.2.3-1.jar:/home/hadoop/hbase-0.94.19/lib/jersey-core-1.8.jar:/home/hadoop/hbase-0.94.19/lib/jersey-json-1.8.jar:/home/hadoop/hbase-0.94.19/lib/jersey-server-1.8.jar:/home/hadoop/hbase-0.94.19/lib/jettison-1.1.jar:/home/hadoop/hbase-0.94.19/lib/jetty-6.1.26.jar:/home/hadoop/hbase-0.94.19/lib/jetty-util-6.1.26.jar:/home/hadoop/hbase-0.94.19/lib/jruby-complete-1.6.5.jar:/home/hadoop/hbase-0.94.19/lib/jsp-2.1-6.1.14.jar:/home/hadoop/hbase-0.94.19/lib/jsp-api-2.1-6.1.14.jar:/home/hadoop/hbase-0.94.19/lib/jsr305-1.3.9.jar:/home/hadoop/hbase-0.94.19/lib/junit-4.11.jar:/home/hadoop/hbase-0.94.19/lib/libthrift-0.8.0.jar:/home/hadoop/hbase-0.94.19/lib/log4j-1.2.16.jar:/home/hadoop/hbase-0.94.19/lib/metrics-core-2.1.2.jar:/home/hadoop/hbase-0.94.19/lib/netty-3.2.4.Final.jar:/home/hadoop/hbase-0.94.19/lib/protobuf-java-2.4.0a.jar:/home/hadoop/hbase-0.94.19/lib/servlet-api-2.5-6.1.14.jar:/home/hadoop/hbase-0.94.19/lib/slf4j-api-1.4.3.jar:/home/hadoop/hbase-0.94.19/lib/slf4j-log4j12-1.4.3.jar:/home/hadoop/hbase-0.94.19/lib/snappy-java-1.0.3.2.jar:/home/hadoop/hbase-0.94.19/lib/stax-api-1.0.1.jar:/home/hadoop/hbase-0.94.19/lib/velocity-1.7.jar:/home/hadoop/hbase-0.94.19/lib/xmlenc-0.52.jar:/home/hadoop/hbase-0.94.19/lib/zookeeper-3.4.5.jar:
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.library.path=/home/hadoop/hbase-0.94.19/lib/native/Linux-amd64-64
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/tmp
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.name=Linux
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.arch=amd64
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.version=3.2.0-58-generic
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.name=hadoop
+2014-05-20 15:04:33,126 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.home=/home/hadoop
+2014-05-20 15:04:33,127 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.dir=/home/hadoop/hbase-0.94.19
+2014-05-20 15:04:33,127 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=ginja-a1:2181 sessionTimeout=180000 watcher=master:60000
+2014-05-20 15:04:33,138 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: The identifier of this process is 12426@ginja-A1
+2014-05-20 15:04:33,141 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server ginja-a1/146.193.41.141:2181. Will not attempt to authenticate using SASL (unknown error)
+2014-05-20 15:04:33,143 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to ginja-a1/146.193.41.141:2181, initiating session
+2014-05-20 15:04:33,313 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server ginja-a1/146.193.41.141:2181, sessionid = 0x14619f2a9830000, negotiated timeout = 180000
+2014-05-20 15:04:33,321 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server Responder: starting
+2014-05-20 15:04:33,322 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server listener on 60000: starting
+2014-05-20 15:04:33,332 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 0 on 60000: starting
+2014-05-20 15:04:33,332 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 1 on 60000: starting
+2014-05-20 15:04:33,332 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 2 on 60000: starting
+2014-05-20 15:04:33,332 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 3 on 60000: starting
+2014-05-20 15:04:33,334 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 4 on 60000: starting
+2014-05-20 15:04:33,335 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 5 on 60000: starting
+2014-05-20 15:04:33,335 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 6 on 60000: starting
+2014-05-20 15:04:33,335 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 7 on 60000: starting
+2014-05-20 15:04:33,335 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 8 on 60000: starting
+2014-05-20 15:04:33,335 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 9 on 60000: starting
+2014-05-20 15:04:33,336 INFO org.apache.hadoop.ipc.HBaseServer: REPL IPC Server handler 0 on 60000: starting
+2014-05-20 15:04:33,336 INFO org.apache.hadoop.ipc.HBaseServer: REPL IPC Server handler 1 on 60000: starting
+2014-05-20 15:04:33,336 INFO org.apache.hadoop.ipc.HBaseServer: REPL IPC Server handler 2 on 60000: starting
+2014-05-20 15:04:33,338 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=Master, sessionId=ginja-a1,60000,1400594673026
+2014-05-20 15:04:33,342 INFO org.apache.hadoop.hbase.metrics: MetricsString added: revision
+2014-05-20 15:04:33,342 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsUser
+2014-05-20 15:04:33,342 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsDate
+2014-05-20 15:04:33,342 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsUrl
+2014-05-20 15:04:33,342 INFO org.apache.hadoop.hbase.metrics: MetricsString added: date
+2014-05-20 15:04:33,342 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsRevision
+2014-05-20 15:04:33,342 INFO org.apache.hadoop.hbase.metrics: MetricsString added: user
+2014-05-20 15:04:33,342 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsVersion
+2014-05-20 15:04:33,342 INFO org.apache.hadoop.hbase.metrics: MetricsString added: url
+2014-05-20 15:04:33,342 INFO org.apache.hadoop.hbase.metrics: MetricsString added: version
+2014-05-20 15:04:33,342 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2014-05-20 15:04:33,343 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2014-05-20 15:04:33,343 INFO org.apache.hadoop.hbase.master.metrics.MasterMetrics: Initialized
+2014-05-20 15:04:33,372 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-05-20 15:04:33,400 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-05-20 15:04:33,407 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 60010
+2014-05-20 15:04:33,407 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 60010 webServer.getConnectors()[0].getLocalPort() returned 60010
+2014-05-20 15:04:33,408 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 60010
+2014-05-20 15:04:33,408 INFO org.mortbay.log: jetty-6.1.26
+2014-05-20 15:04:33,639 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:60010
+2014-05-20 15:04:33,667 INFO org.apache.hadoop.hbase.master.ActiveMasterManager: Deleting ZNode for /hbase/backup-masters/ginja-a1,60000,1400594673026 from backup master directory
+2014-05-20 15:04:33,680 WARN org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: Node /hbase/backup-masters/ginja-a1,60000,1400594673026 already deleted, and this is not a retry
+2014-05-20 15:04:33,680 INFO org.apache.hadoop.hbase.master.ActiveMasterManager: Master=ginja-a1,60000,1400594673026
+2014-05-20 15:04:33,765 INFO org.apache.hadoop.hbase.master.SplitLogManager: timeout = 300000
+2014-05-20 15:04:33,765 INFO org.apache.hadoop.hbase.master.SplitLogManager: unassigned timeout = 180000
+2014-05-20 15:04:33,765 INFO org.apache.hadoop.hbase.master.SplitLogManager: resubmit threshold = 3
+2014-05-20 15:04:33,769 INFO org.apache.hadoop.hbase.master.SplitLogManager: found 0 orphan tasks and 0 rescan nodes
+2014-05-20 15:04:33,908 DEBUG org.apache.hadoop.hbase.catalog.CatalogTracker: Starting catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@2a509df8
+2014-05-20 15:04:33,952 INFO org.apache.hadoop.hbase.master.HMaster: Server active/primary master; ginja-a1,60000,1400594673026, sessionid=0x14619f2a9830000, cluster-up flag was=false
+2014-05-20 15:04:33,963 INFO org.apache.hadoop.hbase.master.snapshot.SnapshotManager: Snapshot feature is not enabled, missing log and hfile cleaners.
+2014-05-20 15:04:33,990 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: Node /hbase/online-snapshot/acquired already exists and this is not a retry
+2014-05-20 15:04:33,992 INFO org.apache.hadoop.hbase.procedure.ZKProcedureUtil: Clearing all procedure znodes: /hbase/online-snapshot/acquired /hbase/online-snapshot/reached /hbase/online-snapshot/abort
+2014-05-20 15:04:33,995 DEBUG org.apache.hadoop.hbase.procedure.ZKProcedureCoordinatorRpcs: Starting the controller for procedure member:ginja-a1,60000,1400594673026
+2014-05-20 15:04:34,006 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_OPEN_REGION-ginja-a1,60000,1400594673026, corePoolSize=5, maxPoolSize=5
+2014-05-20 15:04:34,006 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_CLOSE_REGION-ginja-a1,60000,1400594673026, corePoolSize=5, maxPoolSize=5
+2014-05-20 15:04:34,006 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_SERVER_OPERATIONS-ginja-a1,60000,1400594673026, corePoolSize=3, maxPoolSize=3
+2014-05-20 15:04:34,006 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_META_SERVER_OPERATIONS-ginja-a1,60000,1400594673026, corePoolSize=5, maxPoolSize=5
+2014-05-20 15:04:34,007 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_TABLE_OPERATIONS-ginja-a1,60000,1400594673026, corePoolSize=1, maxPoolSize=1
+2014-05-20 15:04:34,009 DEBUG org.apache.hadoop.hbase.master.cleaner.CleanerChore: initialize cleaner=org.apache.hadoop.hbase.master.cleaner.TimeToLiveLogCleaner
+2014-05-20 15:04:34,010 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=ginja-a1:2181 sessionTimeout=180000 watcher=replicationLogCleaner
+2014-05-20 15:04:34,011 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server ginja-a1/146.193.41.141:2181. Will not attempt to authenticate using SASL (unknown error)
+2014-05-20 15:04:34,011 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to ginja-a1/146.193.41.141:2181, initiating session
+2014-05-20 15:04:34,011 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: The identifier of this process is 12426@ginja-A1
+2014-05-20 15:04:34,016 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server ginja-a1/146.193.41.141:2181, sessionid = 0x14619f2a9830001, negotiated timeout = 180000
+2014-05-20 15:04:34,023 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: Node /hbase/replication/peers already exists and this is not a retry
+2014-05-20 15:04:34,032 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: Node /hbase/replication/rs already exists and this is not a retry
+2014-05-20 15:04:34,034 INFO org.apache.hadoop.hbase.replication.ReplicationZookeeper: Replication is now started
+2014-05-20 15:04:34,035 DEBUG org.apache.hadoop.hbase.master.cleaner.CleanerChore: initialize cleaner=org.apache.hadoop.hbase.replication.master.ReplicationLogCleaner
+2014-05-20 15:04:34,037 DEBUG org.apache.hadoop.hbase.master.cleaner.CleanerChore: initialize cleaner=org.apache.hadoop.hbase.master.cleaner.TimeToLiveHFileCleaner
+2014-05-20 15:04:34,038 DEBUG org.apache.hadoop.hbase.master.HMaster: Started service threads
+2014-05-20 15:04:34,038 INFO org.apache.hadoop.hbase.master.ServerManager: Waiting for region servers count to settle; currently checked in 0, slept for 0 ms, expecting minimum of 1, maximum of 2147483647, timeout of 4500 ms, interval of 1500 ms.
+2014-05-20 15:04:35,541 INFO org.apache.hadoop.hbase.master.ServerManager: Waiting for region servers count to settle; currently checked in 0, slept for 1503 ms, expecting minimum of 1, maximum of 2147483647, timeout of 4500 ms, interval of 1500 ms.
+2014-05-20 15:04:37,044 INFO org.apache.hadoop.hbase.master.ServerManager: Waiting for region servers count to settle; currently checked in 0, slept for 3006 ms, expecting minimum of 1, maximum of 2147483647, timeout of 4500 ms, interval of 1500 ms.
+2014-05-20 15:04:38,302 INFO org.apache.hadoop.hbase.master.ServerManager: Registering server=ginja-a1,60020,1400594677770
+2014-05-20 15:04:38,346 INFO org.apache.hadoop.hbase.master.ServerManager: Waiting for region servers count to settle; currently checked in 1, slept for 4308 ms, expecting minimum of 1, maximum of 2147483647, timeout of 4500 ms, interval of 1500 ms.
+2014-05-20 15:04:38,350 INFO org.apache.hadoop.hbase.zookeeper.RegionServerTracker: Rs node: /hbase/rs/ginja-a1,60020,1400594677770 data: PBUF��
+2014-05-20 15:04:39,849 INFO org.apache.hadoop.hbase.master.ServerManager: Finished waiting for region servers count to settle; checked in 1, slept for 5811 ms, expecting minimum of 1, maximum of 2147483647, master is running.
+2014-05-20 15:04:39,853 INFO org.apache.hadoop.hbase.master.MasterFileSystem: Log folder hdfs://ginja-a1:9000/hbase/.logs/ginja-a1,60020,1400594677770 belongs to an existing region server
+2014-05-20 15:04:39,861 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=ginja-a1:2181 sessionTimeout=180000 watcher=hconnection
+2014-05-20 15:04:39,862 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server ginja-a1/146.193.41.141:2181. Will not attempt to authenticate using SASL (unknown error)
+2014-05-20 15:04:39,862 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: The identifier of this process is 12426@ginja-A1
+2014-05-20 15:04:39,863 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to ginja-a1/146.193.41.141:2181, initiating session
+2014-05-20 15:04:39,874 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server ginja-a1/146.193.41.141:2181, sessionid = 0x14619f2a9830003, negotiated timeout = 180000
+2014-05-20 15:04:39,914 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of -ROOT-,,0 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: -ROOT-,,0
+2014-05-20 15:04:39,916 INFO org.apache.hadoop.hbase.catalog.RootLocationEditor: Unsetting ROOT region location in ZooKeeper
+2014-05-20 15:04:39,925 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x14619f2a9830000 Creating (or updating) unassigned node for 70236052 with OFFLINE state
+2014-05-20 15:04:39,942 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: No previous transition plan was found (or we are ignoring an existing plan) for -ROOT-,,0.70236052 so generated a random one; hri=-ROOT-,,0.70236052, src=, dest=ginja-a1,60020,1400594677770; 1 (online=1, available=1) available servers
+2014-05-20 15:04:39,942 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Assigning region -ROOT-,,0.70236052 to ginja-a1,60020,1400594677770
+2014-05-20 15:04:39,942 DEBUG org.apache.hadoop.hbase.master.ServerManager: New connection to ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,004 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=ginja-a1,60020,1400594677770, region=70236052/-ROOT-
+2014-05-20 15:04:40,157 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=ginja-a1,60020,1400594677770, region=70236052/-ROOT-
+2014-05-20 15:04:40,175 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENED, server=ginja-a1,60020,1400594677770, region=70236052/-ROOT-
+2014-05-20 15:04:40,176 INFO org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Handling OPENED event for -ROOT-,,0.70236052 from ginja-a1,60020,1400594677770; deleting unassigned node
+2014-05-20 15:04:40,176 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x14619f2a9830000 Deleting existing unassigned node for 70236052 that is in expected state RS_ZK_REGION_OPENED
+2014-05-20 15:04:40,182 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: The znode of region -ROOT-,,0.70236052 has been deleted.
+2014-05-20 15:04:40,182 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x14619f2a9830000 Successfully deleted unassigned node for region 70236052 in expected state RS_ZK_REGION_OPENED
+2014-05-20 15:04:40,182 INFO org.apache.hadoop.hbase.master.AssignmentManager: The master has opened the region -ROOT-,,0.70236052 that was online on ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,183 INFO org.apache.hadoop.hbase.master.HMaster: -ROOT- assigned=1, rit=false, location=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,191 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,194 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,236 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,239 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,245 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:40,298 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,300 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,306 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:40,358 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,360 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,368 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:40,421 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,423 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,430 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:40,482 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,485 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,491 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:40,543 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,545 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,552 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:40,604 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,606 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,614 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:40,666 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,669 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,676 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:40,728 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,730 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,737 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:40,789 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,791 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,797 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:40,849 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,851 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,857 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:40,909 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,911 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,917 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:40,970 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,972 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:40,978 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:41,030 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,032 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,038 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:41,091 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,092 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,099 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:41,151 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,153 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,159 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:41,211 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,213 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,218 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:41,271 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,273 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,279 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:41,279 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x14619f2a9830000 Creating (or updating) unassigned node for 1028785192 with OFFLINE state
+2014-05-20 15:04:41,291 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=M_ZK_REGION_OFFLINE, server=ginja-a1,60000,1400594673026, region=1028785192/.META.
+2014-05-20 15:04:41,292 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: No previous transition plan was found (or we are ignoring an existing plan) for .META.,,1.1028785192 so generated a random one; hri=.META.,,1.1028785192, src=, dest=ginja-a1,60020,1400594677770; 1 (online=1, available=1) available servers
+2014-05-20 15:04:41,292 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Assigning region .META.,,1.1028785192 to ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,300 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=ginja-a1,60020,1400594677770, region=1028785192/.META.
+2014-05-20 15:04:41,302 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,304 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,310 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:41,350 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=ginja-a1,60020,1400594677770, region=1028785192/.META.
+2014-05-20 15:04:41,362 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,364 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,372 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=ginja-a1,60020,1400593602620; org.apache.hadoop.hbase.NotServingRegionException: org.apache.hadoop.hbase.NotServingRegionException: Region is not online: .META.,,1
+2014-05-20 15:04:41,425 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,425 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENED, server=ginja-a1,60020,1400594677770, region=1028785192/.META.
+2014-05-20 15:04:41,425 INFO org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Handling OPENED event for .META.,,1.1028785192 from ginja-a1,60020,1400594677770; deleting unassigned node
+2014-05-20 15:04:41,426 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x14619f2a9830000 Deleting existing unassigned node for 1028785192 that is in expected state RS_ZK_REGION_OPENED
+2014-05-20 15:04:41,427 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,432 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: The znode of region .META.,,1.1028785192 has been deleted.
+2014-05-20 15:04:41,432 INFO org.apache.hadoop.hbase.master.AssignmentManager: The master has opened the region .META.,,1.1028785192 that was online on ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,432 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x14619f2a9830000 Successfully deleted unassigned node for region 1028785192 in expected state RS_ZK_REGION_OPENED
+2014-05-20 15:04:41,432 DEBUG org.apache.hadoop.hbase.catalog.CatalogTracker: Current cached META location, null, is not valid, resetting
+2014-05-20 15:04:41,435 DEBUG org.apache.hadoop.hbase.catalog.CatalogTracker: Set new cached META location: ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,435 INFO org.apache.hadoop.hbase.master.HMaster: .META. assigned=1, rit=false, location=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,439 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,441 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Creating scanner over -ROOT- starting at key ''
+2014-05-20 15:04:41,441 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Advancing internal scanner to startKey at ''
+2014-05-20 15:04:41,445 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,453 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Finished with scanning at {NAME => '-ROOT-,,0', STARTKEY => '', ENDKEY => '', ENCODED => 70236052,}
+2014-05-20 15:04:41,453 INFO org.apache.hadoop.hbase.catalog.MetaMigrationRemovingHTD: Meta version=0; migrated=true
+2014-05-20 15:04:41,453 INFO org.apache.hadoop.hbase.catalog.MetaMigrationRemovingHTD: ROOT/Meta already up-to date with new HRI.
+2014-05-20 15:04:41,457 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Looked up root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17; serverName=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,467 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Cached location for .META.,,1.1028785192 is ginja-a1:60020
+2014-05-20 15:04:41,468 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Creating scanner over .META. starting at key ''
+2014-05-20 15:04:41,468 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Advancing internal scanner to startKey at ''
+2014-05-20 15:04:41,478 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Finished with scanning at {NAME => '.META.,,1', STARTKEY => '', ENDKEY => '', ENCODED => 1028785192,}
+2014-05-20 15:04:41,480 INFO org.apache.hadoop.hbase.master.AssignmentManager: Clean cluster startup. Assigning userregions
+2014-05-20 15:04:41,480 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x14619f2a9830000 Deleting any existing unassigned nodes
+2014-05-20 15:04:41,482 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Creating scanner over .META. starting at key ''
+2014-05-20 15:04:41,483 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Advancing internal scanner to startKey at ''
+2014-05-20 15:04:41,488 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Finished with scanning at {NAME => '.META.,,1', STARTKEY => '', ENDKEY => '', ENCODED => 1028785192,}
+2014-05-20 15:04:41,502 INFO org.apache.hadoop.hbase.master.LoadBalancer: Reassigned 1 regions. 1 retained the pre-restart assignment. 
+2014-05-20 15:04:41,502 INFO org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning 1 region(s) across 1 server(s), retainAssignment=true
+2014-05-20 15:04:41,503 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Timeout-on-RIT=1000
+2014-05-20 15:04:41,503 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning 1 region(s) to ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,503 INFO org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning done
+2014-05-20 15:04:41,504 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x14619f2a9830000 Async create of unassigned node for be5a264bcb78dfe1d09f632d8e4e2f2d with OFFLINE state
+2014-05-20 15:04:41,505 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Creating scanner over .META. starting at key ''
+2014-05-20 15:04:41,505 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Advancing internal scanner to startKey at ''
+2014-05-20 15:04:41,510 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Finished with scanning at {NAME => '.META.,,1', STARTKEY => '', ENDKEY => '', ENCODED => 1028785192,}
+2014-05-20 15:04:41,517 DEBUG org.apache.hadoop.hbase.client.MetaScanner: Scanning .META. starting at row= for max=2147483647 rows using org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17
+2014-05-20 15:04:41,519 INFO org.apache.hadoop.hbase.master.HMaster: Registered HMaster MXBean
+2014-05-20 15:04:41,519 INFO org.apache.hadoop.hbase.master.HMaster: Master has completed initialization
+2014-05-20 15:04:41,520 DEBUG org.apache.hadoop.hbase.master.AssignmentManager$CreateUnassignedAsyncCallback: rs=test,,1399570556688.be5a264bcb78dfe1d09f632d8e4e2f2d. state=OFFLINE, ts=1400594681504, server=null, server=ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,522 DEBUG org.apache.hadoop.hbase.master.AssignmentManager$ExistsUnassignedAsyncCallback: rs=test,,1399570556688.be5a264bcb78dfe1d09f632d8e4e2f2d. state=OFFLINE, ts=1400594681504, server=null
+2014-05-20 15:04:41,523 INFO org.apache.hadoop.hbase.master.AssignmentManager: ginja-a1,60020,1400594677770 outstanding calls=1 of total=1
+2014-05-20 15:04:41,541 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning done for ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,541 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=ginja-a1,60020,1400594677770, region=be5a264bcb78dfe1d09f632d8e4e2f2d
+2014-05-20 15:04:41,542 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2014-05-20 15:04:41,600 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=ginja-a1,60020,1400594677770, region=be5a264bcb78dfe1d09f632d8e4e2f2d
+2014-05-20 15:04:41,628 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENED, server=ginja-a1,60020,1400594677770, region=be5a264bcb78dfe1d09f632d8e4e2f2d
+2014-05-20 15:04:41,629 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Handling OPENED event for test,,1399570556688.be5a264bcb78dfe1d09f632d8e4e2f2d. from ginja-a1,60020,1400594677770; deleting unassigned node
+2014-05-20 15:04:41,629 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x14619f2a9830000 Deleting existing unassigned node for be5a264bcb78dfe1d09f632d8e4e2f2d that is in expected state RS_ZK_REGION_OPENED
+2014-05-20 15:04:41,640 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: The znode of region test,,1399570556688.be5a264bcb78dfe1d09f632d8e4e2f2d. has been deleted.
+2014-05-20 15:04:41,640 INFO org.apache.hadoop.hbase.master.AssignmentManager: The master has opened the region test,,1399570556688.be5a264bcb78dfe1d09f632d8e4e2f2d. that was online on ginja-a1,60020,1400594677770
+2014-05-20 15:04:41,640 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x14619f2a9830000 Successfully deleted unassigned node for region be5a264bcb78dfe1d09f632d8e4e2f2d in expected state RS_ZK_REGION_OPENED
+2014-05-20 15:09:41,511 DEBUG org.apache.hadoop.hbase.client.MetaScanner: Scanning .META. starting at row= for max=2147483647 rows using org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17
+2014-05-20 15:09:41,512 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing because balanced cluster; servers=1 regions=1 average=1.0 mostloaded=1 leastloaded=1
+2014-05-20 15:09:41,520 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2014-05-20 15:14:34,055 DEBUG org.apache.hadoop.hbase.replication.master.ReplicationLogCleaner: Didn't find this log in ZK, deleting: ginja-a1%2C60020%2C1400593602620.1400593603513
+2014-05-20 15:14:34,084 DEBUG org.apache.hadoop.hbase.replication.master.ReplicationLogCleaner: Didn't find this log in ZK, deleting: ginja-a1%2C60020%2C1400593602620.1400593606772
+2014-05-20 15:14:34,092 DEBUG org.apache.hadoop.hbase.replication.master.ReplicationLogCleaner: Didn't find this log in ZK, deleting: ginja-a1%2C60020%2C1400593602620.1400593607047
+2014-05-20 15:14:41,510 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing because balanced cluster; servers=1 regions=1 average=1.0 mostloaded=1 leastloaded=1
+2014-05-20 15:14:41,512 DEBUG org.apache.hadoop.hbase.client.MetaScanner: Scanning .META. starting at row= for max=2147483647 rows using org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@1c45ce17
+2014-05-20 15:14:41,519 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)

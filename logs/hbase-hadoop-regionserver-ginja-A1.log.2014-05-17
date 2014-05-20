@@ -1,0 +1,96 @@
+2014-05-17 00:36:27,515 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 00:36:27,516 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 00:36:27,627 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400279787380, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400283387515
+2014-05-17 00:36:27,628 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400279787380 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400279787380
+2014-05-17 01:36:27,665 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 01:36:27,665 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 01:36:27,805 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400283387515, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400286987665
+2014-05-17 01:36:27,806 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400283387515 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400283387515
+2014-05-17 02:36:27,843 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 02:36:27,843 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 02:36:27,959 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400286987665, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400290587843
+2014-05-17 02:36:27,960 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400286987665 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400286987665
+2014-05-17 03:36:27,998 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 03:36:27,998 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 03:36:28,132 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400290587843, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400294187997
+2014-05-17 03:36:28,133 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400290587843 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400290587843
+2014-05-17 04:36:28,170 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 04:36:28,170 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 04:36:28,269 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400294187997, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400297788170
+2014-05-17 04:36:28,270 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400294187997 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400294187997
+2014-05-17 05:36:28,308 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 05:36:28,308 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 05:36:28,434 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400297788170, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400301388307
+2014-05-17 05:36:28,435 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400297788170 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400297788170
+2014-05-17 06:36:28,473 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 06:36:28,473 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 06:36:28,622 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400301388307, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400304988472
+2014-05-17 06:36:28,623 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400301388307 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400301388307
+2014-05-17 07:36:28,660 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 07:36:28,660 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 07:36:28,803 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400304988472, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400308588660
+2014-05-17 07:36:28,804 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400304988472 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400304988472
+2014-05-17 08:36:28,842 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 08:36:28,842 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 08:36:28,957 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400308588660, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400312188841
+2014-05-17 08:36:28,958 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400308588660 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400308588660
+2014-05-17 09:36:28,995 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 09:36:28,996 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 09:36:29,155 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400312188841, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400315788995
+2014-05-17 09:36:29,157 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400312188841 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400312188841
+2014-05-17 10:36:29,193 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 10:36:29,194 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 10:36:29,318 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400315788995, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400319389193
+2014-05-17 10:36:29,319 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400315788995 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400315788995
+2014-05-17 11:36:29,356 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 11:36:29,356 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 11:36:29,500 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400319389193, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400322989356
+2014-05-17 11:36:29,501 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400319389193 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400319389193
+2014-05-17 12:36:29,538 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 12:36:29,538 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 12:36:29,663 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400322989356, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400326589538
+2014-05-17 12:36:29,665 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400322989356 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400322989356
+2014-05-17 13:36:29,703 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 13:36:29,703 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 13:36:29,826 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400326589538, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400330189702
+2014-05-17 13:36:29,827 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400326589538 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400326589538
+2014-05-17 14:36:29,865 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 14:36:29,865 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 14:36:30,001 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400330189702, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400333789865
+2014-05-17 14:36:30,002 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400330189702 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400330189702
+2014-05-17 15:36:30,038 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 15:36:30,038 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 15:36:30,159 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400333789865, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400337390038
+2014-05-17 15:36:30,161 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400333789865 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400333789865
+2014-05-17 16:36:30,198 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 16:36:30,198 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 16:36:30,325 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400337390038, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400340990198
+2014-05-17 16:36:30,326 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400337390038 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400337390038
+2014-05-17 17:36:30,363 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 17:36:30,363 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 17:36:30,488 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400340990198, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400344590363
+2014-05-17 17:36:30,489 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400340990198 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400340990198
+2014-05-17 18:36:30,526 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 18:36:30,526 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 18:36:30,610 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400344590363, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400348190526
+2014-05-17 18:36:30,611 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400344590363 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400344590363
+2014-05-17 19:36:30,657 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 19:36:30,657 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 19:36:30,764 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400348190526, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400351790657
+2014-05-17 19:36:30,766 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400348190526 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400348190526
+2014-05-17 20:36:30,803 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 20:36:30,804 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 20:36:30,920 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400351790657, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400355390803
+2014-05-17 20:36:30,921 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400351790657 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400351790657
+2014-05-17 21:36:30,958 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 21:36:30,958 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 21:36:31,083 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400355390803, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400358990958
+2014-05-17 21:36:31,084 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400355390803 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400355390803
+2014-05-17 22:36:31,122 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 22:36:31,122 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 22:36:31,839 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400358990958, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400362591121
+2014-05-17 22:36:31,840 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400358990958 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400358990958
+2014-05-17 23:36:31,877 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-17 23:36:31,877 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-17 23:36:31,985 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400362591121, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400366191877
+2014-05-17 23:36:31,986 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1400362591121 whose highest sequenceid is 21 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1400362591121

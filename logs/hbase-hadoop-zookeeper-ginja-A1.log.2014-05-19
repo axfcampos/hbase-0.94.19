@@ -1,0 +1,294 @@
+2014-05-19 15:17:56,386 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:48886
+2014-05-19 15:17:56,396 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:48886
+2014-05-19 15:17:56,427 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0022 with negotiated timeout 60000 for client /127.0.0.1:48886
+2014-05-19 15:17:56,669 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0022
+2014-05-19 15:17:56,686 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:48886 which had sessionid 0x145d78d793a0022
+2014-05-19 15:31:30,249 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:48947
+2014-05-19 15:31:30,251 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:48947
+2014-05-19 15:31:30,261 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0023 with negotiated timeout 60000 for client /127.0.0.1:48947
+2014-05-19 15:31:30,456 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0023
+2014-05-19 15:31:30,461 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:48947 which had sessionid 0x145d78d793a0023
+2014-05-19 15:50:39,275 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49027
+2014-05-19 15:50:39,277 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49027
+2014-05-19 15:50:39,285 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0024 with negotiated timeout 60000 for client /127.0.0.1:49027
+2014-05-19 15:50:39,477 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0024
+2014-05-19 15:50:39,485 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49027 which had sessionid 0x145d78d793a0024
+2014-05-19 16:37:30,846 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49209
+2014-05-19 16:37:30,848 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49209
+2014-05-19 16:37:30,868 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0025 with negotiated timeout 60000 for client /127.0.0.1:49209
+2014-05-19 16:37:31,066 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0025
+2014-05-19 16:37:31,068 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49209 which had sessionid 0x145d78d793a0025
+2014-05-19 16:38:25,314 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49221
+2014-05-19 16:38:25,316 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49221
+2014-05-19 16:38:25,324 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0026 with negotiated timeout 60000 for client /127.0.0.1:49221
+2014-05-19 16:38:25,521 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0026
+2014-05-19 16:38:25,525 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49221 which had sessionid 0x145d78d793a0026
+2014-05-19 16:39:03,193 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49230
+2014-05-19 16:39:03,195 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49230
+2014-05-19 16:39:03,215 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0027 with negotiated timeout 60000 for client /127.0.0.1:49230
+2014-05-19 16:39:03,412 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0027
+2014-05-19 16:39:03,415 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49230 which had sessionid 0x145d78d793a0027
+2014-05-19 16:40:56,446 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49247
+2014-05-19 16:40:56,448 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49247
+2014-05-19 16:40:56,470 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0028 with negotiated timeout 60000 for client /127.0.0.1:49247
+2014-05-19 16:40:56,673 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0028
+2014-05-19 16:40:56,679 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49247 which had sessionid 0x145d78d793a0028
+2014-05-19 16:41:42,761 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46378
+2014-05-19 16:41:42,762 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46378
+2014-05-19 16:41:42,863 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0029 with negotiated timeout 60000 for client /146.193.41.141:46378
+2014-05-19 16:41:42,869 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0029
+2014-05-19 16:41:42,886 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46378 which had sessionid 0x145d78d793a0029
+2014-05-19 16:41:42,888 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46380
+2014-05-19 16:41:42,889 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46380
+2014-05-19 16:41:42,894 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a002a with negotiated timeout 60000 for client /146.193.41.141:46380
+2014-05-19 16:41:42,908 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a002a
+2014-05-19 16:41:42,919 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46380 which had sessionid 0x145d78d793a002a
+2014-05-19 16:42:29,299 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46387
+2014-05-19 16:42:29,300 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46387
+2014-05-19 16:42:29,326 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a002b with negotiated timeout 60000 for client /146.193.41.141:46387
+2014-05-19 16:42:29,333 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a002b
+2014-05-19 16:42:29,343 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46387 which had sessionid 0x145d78d793a002b
+2014-05-19 16:42:29,345 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46389
+2014-05-19 16:42:29,346 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46389
+2014-05-19 16:42:29,351 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a002c with negotiated timeout 60000 for client /146.193.41.141:46389
+2014-05-19 16:42:29,366 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a002c
+2014-05-19 16:42:29,376 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46389 which had sessionid 0x145d78d793a002c
+2014-05-19 16:42:54,405 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46392
+2014-05-19 16:42:54,407 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46392
+2014-05-19 16:42:54,434 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a002d with negotiated timeout 60000 for client /146.193.41.141:46392
+2014-05-19 16:43:21,351 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a002d, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 16:43:21,352 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46392 which had sessionid 0x145d78d793a002d
+2014-05-19 16:43:23,762 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49278
+2014-05-19 16:43:23,764 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49278
+2014-05-19 16:43:23,791 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a002e with negotiated timeout 60000 for client /127.0.0.1:49278
+2014-05-19 16:43:23,974 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a002e
+2014-05-19 16:43:24,066 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49278 which had sessionid 0x145d78d793a002e
+2014-05-19 16:44:16,000 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a002d, timeout of 60000ms exceeded
+2014-05-19 16:44:16,000 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a002d
+2014-05-19 16:45:49,435 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49301
+2014-05-19 16:45:49,437 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49301
+2014-05-19 16:45:49,461 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a002f with negotiated timeout 60000 for client /127.0.0.1:49301
+2014-05-19 16:45:49,651 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a002f
+2014-05-19 16:45:49,661 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49301 which had sessionid 0x145d78d793a002f
+2014-05-19 16:46:18,844 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46431
+2014-05-19 16:46:18,846 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46431
+2014-05-19 16:46:18,877 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0030 with negotiated timeout 60000 for client /146.193.41.141:46431
+2014-05-19 16:46:37,253 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a0030, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 16:46:37,254 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46431 which had sessionid 0x145d78d793a0030
+2014-05-19 16:46:41,535 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49315
+2014-05-19 16:46:41,538 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49315
+2014-05-19 16:46:41,551 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0031 with negotiated timeout 60000 for client /127.0.0.1:49315
+2014-05-19 16:46:41,736 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0031
+2014-05-19 16:46:41,743 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49315 which had sessionid 0x145d78d793a0031
+2014-05-19 16:46:58,701 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46444
+2014-05-19 16:46:58,704 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46444
+2014-05-19 16:46:58,726 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0032 with negotiated timeout 60000 for client /146.193.41.141:46444
+2014-05-19 16:47:06,864 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a0032, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 16:47:06,865 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46444 which had sessionid 0x145d78d793a0032
+2014-05-19 16:47:20,000 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a0030, timeout of 60000ms exceeded
+2014-05-19 16:47:20,000 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0030
+2014-05-19 16:48:00,000 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a0032, timeout of 60000ms exceeded
+2014-05-19 16:48:00,000 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0032
+2014-05-19 16:49:37,964 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49339
+2014-05-19 16:49:37,966 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49339
+2014-05-19 16:49:37,988 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0033 with negotiated timeout 60000 for client /127.0.0.1:49339
+2014-05-19 16:49:38,186 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0033
+2014-05-19 16:49:38,188 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49339 which had sessionid 0x145d78d793a0033
+2014-05-19 16:50:11,342 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49354
+2014-05-19 16:50:11,344 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49354
+2014-05-19 16:50:11,354 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0034 with negotiated timeout 60000 for client /127.0.0.1:49354
+2014-05-19 16:50:11,554 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0034
+2014-05-19 16:50:11,562 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49354 which had sessionid 0x145d78d793a0034
+2014-05-19 16:51:35,810 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49366
+2014-05-19 16:51:35,811 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49366
+2014-05-19 16:51:35,826 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0035 with negotiated timeout 60000 for client /127.0.0.1:49366
+2014-05-19 16:51:36,011 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0035
+2014-05-19 16:51:36,018 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49366 which had sessionid 0x145d78d793a0035
+2014-05-19 16:53:16,040 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46499
+2014-05-19 16:53:16,042 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46499
+2014-05-19 16:53:16,056 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0036 with negotiated timeout 60000 for client /146.193.41.141:46499
+2014-05-19 16:53:39,481 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a0036, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 16:53:39,482 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46499 which had sessionid 0x145d78d793a0036
+2014-05-19 16:54:38,000 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a0036, timeout of 60000ms exceeded
+2014-05-19 16:54:38,001 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0036
+2014-05-19 16:56:21,076 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49398
+2014-05-19 16:56:21,079 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49398
+2014-05-19 16:56:21,101 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0037 with negotiated timeout 60000 for client /127.0.0.1:49398
+2014-05-19 16:56:21,299 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0037
+2014-05-19 16:56:21,309 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49398 which had sessionid 0x145d78d793a0037
+2014-05-19 16:57:31,963 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46530
+2014-05-19 16:57:31,965 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46530
+2014-05-19 16:57:31,974 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0038 with negotiated timeout 60000 for client /146.193.41.141:46530
+2014-05-19 16:58:14,556 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a0038, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 16:58:14,556 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46530 which had sessionid 0x145d78d793a0038
+2014-05-19 16:59:14,000 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a0038, timeout of 60000ms exceeded
+2014-05-19 16:59:14,000 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0038
+2014-05-19 17:08:00,119 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49449
+2014-05-19 17:08:00,121 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49449
+2014-05-19 17:08:00,147 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0039 with negotiated timeout 60000 for client /127.0.0.1:49449
+2014-05-19 17:08:00,344 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0039
+2014-05-19 17:08:00,347 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49449 which had sessionid 0x145d78d793a0039
+2014-05-19 17:08:27,967 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46579
+2014-05-19 17:08:27,969 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46579
+2014-05-19 17:08:27,988 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a003a with negotiated timeout 60000 for client /146.193.41.141:46579
+2014-05-19 17:08:38,267 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a003a, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 17:08:38,268 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46579 which had sessionid 0x145d78d793a003a
+2014-05-19 17:08:49,404 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49462
+2014-05-19 17:08:49,407 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49462
+2014-05-19 17:08:49,428 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a003b with negotiated timeout 60000 for client /127.0.0.1:49462
+2014-05-19 17:08:49,617 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a003b
+2014-05-19 17:08:49,620 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49462 which had sessionid 0x145d78d793a003b
+2014-05-19 17:09:30,000 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a003a, timeout of 60000ms exceeded
+2014-05-19 17:09:30,000 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a003a
+2014-05-19 17:10:53,685 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49481
+2014-05-19 17:10:53,687 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49481
+2014-05-19 17:10:53,700 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a003c with negotiated timeout 60000 for client /127.0.0.1:49481
+2014-05-19 17:10:53,900 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a003c
+2014-05-19 17:10:53,908 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49481 which had sessionid 0x145d78d793a003c
+2014-05-19 17:11:08,627 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46610
+2014-05-19 17:11:08,629 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46610
+2014-05-19 17:11:08,649 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a003d with negotiated timeout 60000 for client /146.193.41.141:46610
+2014-05-19 17:11:47,770 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a003d, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 17:11:47,771 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46610 which had sessionid 0x145d78d793a003d
+2014-05-19 17:11:50,321 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49495
+2014-05-19 17:11:50,323 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49495
+2014-05-19 17:11:50,348 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a003e with negotiated timeout 60000 for client /127.0.0.1:49495
+2014-05-19 17:11:50,539 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a003e
+2014-05-19 17:11:50,548 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49495 which had sessionid 0x145d78d793a003e
+2014-05-19 17:12:07,985 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46624
+2014-05-19 17:12:07,987 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46624
+2014-05-19 17:12:08,030 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a003f with negotiated timeout 60000 for client /146.193.41.141:46624
+2014-05-19 17:12:30,000 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a003d, timeout of 60000ms exceeded
+2014-05-19 17:12:30,001 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a003d
+2014-05-19 17:58:32,553 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a003f, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 17:58:32,554 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46624 which had sessionid 0x145d78d793a003f
+2014-05-19 17:58:35,402 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49676
+2014-05-19 17:58:35,404 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49676
+2014-05-19 17:58:35,423 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0040 with negotiated timeout 60000 for client /127.0.0.1:49676
+2014-05-19 17:58:35,614 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0040
+2014-05-19 17:58:35,623 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49676 which had sessionid 0x145d78d793a0040
+2014-05-19 17:58:45,465 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46804
+2014-05-19 17:58:45,467 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46804
+2014-05-19 17:58:45,577 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0041 with negotiated timeout 60000 for client /146.193.41.141:46804
+2014-05-19 17:58:48,888 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a0041, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 17:58:48,889 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46804 which had sessionid 0x145d78d793a0041
+2014-05-19 17:59:32,000 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a003f, timeout of 60000ms exceeded
+2014-05-19 17:59:32,000 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a003f
+2014-05-19 17:59:46,000 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a0041, timeout of 60000ms exceeded
+2014-05-19 17:59:46,000 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0041
+2014-05-19 18:01:10,938 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49704
+2014-05-19 18:01:10,941 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49704
+2014-05-19 18:01:10,968 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0042 with negotiated timeout 60000 for client /127.0.0.1:49704
+2014-05-19 18:01:11,176 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0042
+2014-05-19 18:01:11,185 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49704 which had sessionid 0x145d78d793a0042
+2014-05-19 18:01:27,137 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46833
+2014-05-19 18:01:27,139 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46833
+2014-05-19 18:01:27,235 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0043 with negotiated timeout 60000 for client /146.193.41.141:46833
+2014-05-19 18:02:07,152 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a0043, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 18:02:07,153 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46833 which had sessionid 0x145d78d793a0043
+2014-05-19 18:02:21,442 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49720
+2014-05-19 18:02:21,444 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49720
+2014-05-19 18:02:21,474 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0044 with negotiated timeout 60000 for client /127.0.0.1:49720
+2014-05-19 18:02:21,660 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0044
+2014-05-19 18:02:21,666 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49720 which had sessionid 0x145d78d793a0044
+2014-05-19 18:02:42,413 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46849
+2014-05-19 18:02:42,415 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46849
+2014-05-19 18:02:42,424 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0045 with negotiated timeout 60000 for client /146.193.41.141:46849
+2014-05-19 18:02:48,000 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a0043, timeout of 60000ms exceeded
+2014-05-19 18:02:48,000 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0043
+2014-05-19 18:02:52,475 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a0045, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 18:02:52,476 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46849 which had sessionid 0x145d78d793a0045
+2014-05-19 18:02:56,146 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49733
+2014-05-19 18:02:56,148 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49733
+2014-05-19 18:02:56,165 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0046 with negotiated timeout 60000 for client /127.0.0.1:49733
+2014-05-19 18:02:56,353 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0046
+2014-05-19 18:02:56,482 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49733 which had sessionid 0x145d78d793a0046
+2014-05-19 18:03:10,325 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46862
+2014-05-19 18:03:10,327 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46862
+2014-05-19 18:03:10,348 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0047 with negotiated timeout 60000 for client /146.193.41.141:46862
+2014-05-19 18:03:15,806 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a0047, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 18:03:15,806 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46862 which had sessionid 0x145d78d793a0047
+2014-05-19 18:03:17,691 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49745
+2014-05-19 18:03:17,693 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49745
+2014-05-19 18:03:17,706 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0048 with negotiated timeout 60000 for client /127.0.0.1:49745
+2014-05-19 18:03:17,891 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0048
+2014-05-19 18:03:17,898 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49745 which had sessionid 0x145d78d793a0048
+2014-05-19 18:03:29,346 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46874
+2014-05-19 18:03:29,348 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46874
+2014-05-19 18:03:29,364 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a0049 with negotiated timeout 60000 for client /146.193.41.141:46874
+2014-05-19 18:03:41,797 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a0049, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 18:03:41,798 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46874 which had sessionid 0x145d78d793a0049
+2014-05-19 18:03:44,000 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a0045, timeout of 60000ms exceeded
+2014-05-19 18:03:44,000 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0045
+2014-05-19 18:04:12,000 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a0047, timeout of 60000ms exceeded
+2014-05-19 18:04:12,000 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0047
+2014-05-19 18:04:30,000 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a0049, timeout of 60000ms exceeded
+2014-05-19 18:04:30,000 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a0049
+2014-05-19 18:05:56,929 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:49766
+2014-05-19 18:05:56,932 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:49766
+2014-05-19 18:05:56,951 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a004a with negotiated timeout 60000 for client /127.0.0.1:49766
+2014-05-19 18:05:57,141 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a004a
+2014-05-19 18:05:57,151 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:49766 which had sessionid 0x145d78d793a004a
+2014-05-19 18:06:08,359 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /146.193.41.141:46894
+2014-05-19 18:06:08,361 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /146.193.41.141:46894
+2014-05-19 18:06:08,384 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x145d78d793a004b with negotiated timeout 60000 for client /146.193.41.141:46894
+2014-05-19 18:06:15,360 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x145d78d793a004b, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-05-19 18:06:15,361 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /146.193.41.141:46894 which had sessionid 0x145d78d793a004b
+2014-05-19 18:07:10,001 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x145d78d793a004b, timeout of 60000ms exceeded
+2014-05-19 18:07:10,001 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x145d78d793a004b

@@ -1,0 +1,251 @@
+Wed May  7 17:18:07 WEST 2014 Starting regionserver on ginja-A1
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 95266
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 65535
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 32000
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+2014-05-07 17:18:07,945 INFO org.apache.hadoop.hbase.util.VersionInfo: HBase 0.94.19
+2014-05-07 17:18:07,945 INFO org.apache.hadoop.hbase.util.VersionInfo: Subversion https://svn.apache.org/repos/asf/hbase/tags/0.94.19RC0 -r 1588997
+2014-05-07 17:18:07,945 INFO org.apache.hadoop.hbase.util.VersionInfo: Compiled by jenkins on Tue Apr 22 00:21:01 UTC 2014
+2014-05-07 17:18:08,046 INFO org.apache.hadoop.hbase.util.ServerCommandLine: vmName=OpenJDK 64-Bit Server VM, vmVendor=Sun Microsystems Inc., vmVersion=20.0-b12
+2014-05-07 17:18:08,046 INFO org.apache.hadoop.hbase.util.ServerCommandLine: vmInputArguments=[-XX:OnOutOfMemoryError=kill -9 %p, -Xmx4000m, -XX:+UseConcMarkSweepGC, -Djava.net.preferIPv4Stack=true, -Dhbase.log.dir=/home/hadoop/hbase-0.94.19/bin/../logs, -Dhbase.log.file=hbase-hadoop-regionserver-ginja-A1.log, -Dhbase.home.dir=/home/hadoop/hbase-0.94.19/bin/.., -Dhbase.id.str=hadoop, -Dhbase.root.logger=INFO,DRFA, -Djava.library.path=/home/hadoop/hbase-0.94.19/bin/../lib/native/Linux-amd64-64, -Dhbase.security.logger=INFO,DRFAS]
+2014-05-07 17:18:08,266 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:18:08,266 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:18:08,267 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:18:08,267 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:18:08,268 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:18:08,269 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:18:08,269 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:18:08,270 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:18:08,270 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:18:08,270 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:18:08,277 INFO org.apache.hadoop.hbase.ipc.HBaseRpcMetrics: Initializing RPC Metrics with hostName=HRegionServer, port=60020
+2014-05-07 17:18:08,379 INFO org.apache.hadoop.hbase.io.hfile.CacheConfig: Allocating LruBlockCache with maximum size 995.8m
+2014-05-07 17:18:08,416 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-05-07 17:18:08,446 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-05-07 17:18:08,453 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 60030
+2014-05-07 17:18:08,454 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 60030 webServer.getConnectors()[0].getLocalPort() returned 60030
+2014-05-07 17:18:08,454 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 60030
+2014-05-07 17:18:08,454 INFO org.mortbay.log: jetty-6.1.26
+2014-05-07 17:18:08,623 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:60030
+2014-05-07 17:18:08,642 INFO org.apache.zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:host.name=ginja-a1
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.version=1.6.0_27
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.vendor=Sun Microsystems Inc.
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.home=/usr/lib/jvm/java-6-openjdk-amd64/jre
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.class.path=/home/hadoop/hbase-0.94.8/conf:/usr/lib/jvm/java-6-openjdk-amd64/lib/tools.jar:/home/hadoop/hbase-0.94.19/bin/..:/home/hadoop/hbase-0.94.19/bin/../hbase-0.94.19.jar:/home/hadoop/hbase-0.94.19/bin/../hbase-0.94.19-tests.jar:/home/hadoop/hbase-0.94.19/bin/../lib/activation-1.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/asm-3.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/avro-1.5.3.jar:/home/hadoop/hbase-0.94.19/bin/../lib/avro-ipc-1.5.3.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-beanutils-1.7.0.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-beanutils-core-1.8.0.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-cli-1.2.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-codec-1.4.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-collections-3.2.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-configuration-1.6.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-digester-1.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-el-1.0.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-httpclient-3.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-io-2.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-lang-2.5.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-logging-1.1.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-math-2.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-net-1.4.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/core-3.1.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/guava-11.0.2.jar:/home/hadoop/hbase-0.94.19/bin/../lib/hadoop-core-1.0.4.jar:/home/hadoop/hbase-0.94.19/bin/../lib/hamcrest-core-1.3.jar:/home/hadoop/hbase-0.94.19/bin/../lib/high-scale-lib-1.1.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/httpclient-4.1.2.jar:/home/hadoop/hbase-0.94.19/bin/../lib/httpcore-4.1.3.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jackson-core-asl-1.8.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jackson-jaxrs-1.8.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jackson-mapper-asl-1.8.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jackson-xc-1.8.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jamon-runtime-2.3.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jasper-compiler-5.5.23.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jasper-runtime-5.5.23.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jaxb-api-2.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jaxb-impl-2.2.3-1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jersey-core-1.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jersey-json-1.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jersey-server-1.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jettison-1.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jetty-6.1.26.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jetty-util-6.1.26.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jruby-complete-1.6.5.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jsp-2.1-6.1.14.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jsp-api-2.1-6.1.14.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jsr305-1.3.9.jar:/home/hadoop/hbase-0.94.19/bin/../lib/junit-4.11.jar:/home/hadoop/hbase-0.94.19/bin/../lib/libthrift-0.8.0.jar:/home/hadoop/hbase-0.94.19/bin/../lib/log4j-1.2.16.jar:/home/hadoop/hbase-0.94.19/bin/../lib/metrics-core-2.1.2.jar:/home/hadoop/hbase-0.94.19/bin/../lib/netty-3.2.4.Final.jar:/home/hadoop/hbase-0.94.19/bin/../lib/protobuf-java-2.4.0a.jar:/home/hadoop/hbase-0.94.19/bin/../lib/servlet-api-2.5-6.1.14.jar:/home/hadoop/hbase-0.94.19/bin/../lib/slf4j-api-1.4.3.jar:/home/hadoop/hbase-0.94.19/bin/../lib/slf4j-log4j12-1.4.3.jar:/home/hadoop/hbase-0.94.19/bin/../lib/snappy-java-1.0.3.2.jar:/home/hadoop/hbase-0.94.19/bin/../lib/stax-api-1.0.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/velocity-1.7.jar:/home/hadoop/hbase-0.94.19/bin/../lib/xmlenc-0.52.jar:/home/hadoop/hbase-0.94.19/bin/../lib/zookeeper-3.4.5.jar:
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.library.path=/home/hadoop/hbase-0.94.19/bin/../lib/native/Linux-amd64-64
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/tmp
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.name=Linux
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.arch=amd64
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.version=3.2.0-58-generic
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.name=hadoop
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.home=/home/hadoop
+2014-05-07 17:18:08,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.dir=/home/hadoop/hbase-0.94.8
+2014-05-07 17:18:08,644 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=ginja-a1:2181 sessionTimeout=60000 watcher=regionserver:60020
+2014-05-07 17:18:08,644 INFO org.apache.hadoop.hbase.regionserver.ShutdownHook: Installed shutdown hook thread: Shutdownhook:regionserver60020
+2014-05-07 17:18:08,657 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: The identifier of this process is 32122@ginja-A1
+2014-05-07 17:18:08,661 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server ginja-a1/146.193.41.141:2181. Will not attempt to authenticate using SASL (unknown error)
+2014-05-07 17:18:08,664 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to ginja-a1/146.193.41.141:2181, initiating session
+2014-05-07 17:18:08,680 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server ginja-a1/146.193.41.141:2181, sessionid = 0x145d77a3c700001, negotiated timeout = 60000
+Wed May  7 17:39:08 WEST 2014 Starting regionserver on ginja-A1
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 95266
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 65535
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 32000
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+2014-05-07 17:39:08,528 INFO org.apache.hadoop.hbase.util.VersionInfo: HBase 0.94.19
+2014-05-07 17:39:08,528 INFO org.apache.hadoop.hbase.util.VersionInfo: Subversion https://svn.apache.org/repos/asf/hbase/tags/0.94.19RC0 -r 1588997
+2014-05-07 17:39:08,528 INFO org.apache.hadoop.hbase.util.VersionInfo: Compiled by jenkins on Tue Apr 22 00:21:01 UTC 2014
+2014-05-07 17:39:08,628 INFO org.apache.hadoop.hbase.util.ServerCommandLine: vmName=OpenJDK 64-Bit Server VM, vmVendor=Sun Microsystems Inc., vmVersion=20.0-b12
+2014-05-07 17:39:08,628 INFO org.apache.hadoop.hbase.util.ServerCommandLine: vmInputArguments=[-XX:OnOutOfMemoryError=kill -9 %p, -Xmx4000m, -XX:+UseConcMarkSweepGC, -Djava.net.preferIPv4Stack=true, -Dhbase.log.dir=/home/hadoop/hbase-0.94.19/bin/../logs, -Dhbase.log.file=hbase-hadoop-regionserver-ginja-A1.log, -Dhbase.home.dir=/home/hadoop/hbase-0.94.19/bin/.., -Dhbase.id.str=hadoop, -Dhbase.root.logger=INFO,DRFA, -Djava.library.path=/home/hadoop/hbase-0.94.19/bin/../lib/native/Linux-amd64-64, -Dhbase.security.logger=INFO,DRFAS]
+2014-05-07 17:39:08,843 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:39:08,844 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:39:08,844 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:39:08,845 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:39:08,846 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:39:08,846 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:39:08,847 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:39:08,847 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:39:08,848 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:39:08,848 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-0
+2014-05-07 17:39:08,855 INFO org.apache.hadoop.hbase.ipc.HBaseRpcMetrics: Initializing RPC Metrics with hostName=HRegionServer, port=60020
+2014-05-07 17:39:08,957 INFO org.apache.hadoop.hbase.io.hfile.CacheConfig: Allocating LruBlockCache with maximum size 995.8m
+2014-05-07 17:39:08,994 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-05-07 17:39:09,024 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-05-07 17:39:09,031 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 60030
+2014-05-07 17:39:09,032 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 60030 webServer.getConnectors()[0].getLocalPort() returned 60030
+2014-05-07 17:39:09,032 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 60030
+2014-05-07 17:39:09,032 INFO org.mortbay.log: jetty-6.1.26
+2014-05-07 17:39:09,200 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:60030
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:host.name=ginja-a1
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.version=1.6.0_27
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.vendor=Sun Microsystems Inc.
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.home=/usr/lib/jvm/java-6-openjdk-amd64/jre
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.class.path=/home/hadoop/hbase-0.94.8/conf:/usr/lib/jvm/java-6-openjdk-amd64/lib/tools.jar:/home/hadoop/hbase-0.94.19/bin/..:/home/hadoop/hbase-0.94.19/bin/../hbase-0.94.19.jar:/home/hadoop/hbase-0.94.19/bin/../hbase-0.94.19-tests.jar:/home/hadoop/hbase-0.94.19/bin/../lib/activation-1.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/asm-3.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/avro-1.5.3.jar:/home/hadoop/hbase-0.94.19/bin/../lib/avro-ipc-1.5.3.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-beanutils-1.7.0.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-beanutils-core-1.8.0.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-cli-1.2.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-codec-1.4.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-collections-3.2.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-configuration-1.6.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-digester-1.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-el-1.0.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-httpclient-3.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-io-2.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-lang-2.5.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-logging-1.1.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-math-2.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/commons-net-1.4.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/core-3.1.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/guava-11.0.2.jar:/home/hadoop/hbase-0.94.19/bin/../lib/hadoop-core-1.0.4.jar:/home/hadoop/hbase-0.94.19/bin/../lib/hamcrest-core-1.3.jar:/home/hadoop/hbase-0.94.19/bin/../lib/high-scale-lib-1.1.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/httpclient-4.1.2.jar:/home/hadoop/hbase-0.94.19/bin/../lib/httpcore-4.1.3.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jackson-core-asl-1.8.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jackson-jaxrs-1.8.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jackson-mapper-asl-1.8.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jackson-xc-1.8.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jamon-runtime-2.3.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jasper-compiler-5.5.23.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jasper-runtime-5.5.23.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jaxb-api-2.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jaxb-impl-2.2.3-1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jersey-core-1.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jersey-json-1.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jersey-server-1.8.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jettison-1.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jetty-6.1.26.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jetty-util-6.1.26.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jruby-complete-1.6.5.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jsp-2.1-6.1.14.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jsp-api-2.1-6.1.14.jar:/home/hadoop/hbase-0.94.19/bin/../lib/jsr305-1.3.9.jar:/home/hadoop/hbase-0.94.19/bin/../lib/junit-4.11.jar:/home/hadoop/hbase-0.94.19/bin/../lib/libthrift-0.8.0.jar:/home/hadoop/hbase-0.94.19/bin/../lib/log4j-1.2.16.jar:/home/hadoop/hbase-0.94.19/bin/../lib/metrics-core-2.1.2.jar:/home/hadoop/hbase-0.94.19/bin/../lib/netty-3.2.4.Final.jar:/home/hadoop/hbase-0.94.19/bin/../lib/protobuf-java-2.4.0a.jar:/home/hadoop/hbase-0.94.19/bin/../lib/servlet-api-2.5-6.1.14.jar:/home/hadoop/hbase-0.94.19/bin/../lib/slf4j-api-1.4.3.jar:/home/hadoop/hbase-0.94.19/bin/../lib/slf4j-log4j12-1.4.3.jar:/home/hadoop/hbase-0.94.19/bin/../lib/snappy-java-1.0.3.2.jar:/home/hadoop/hbase-0.94.19/bin/../lib/stax-api-1.0.1.jar:/home/hadoop/hbase-0.94.19/bin/../lib/velocity-1.7.jar:/home/hadoop/hbase-0.94.19/bin/../lib/xmlenc-0.52.jar:/home/hadoop/hbase-0.94.19/bin/../lib/zookeeper-3.4.5.jar:
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.library.path=/home/hadoop/hbase-0.94.19/bin/../lib/native/Linux-amd64-64
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/tmp
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.name=Linux
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.arch=amd64
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.version=3.2.0-58-generic
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.name=hadoop
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.home=/home/hadoop
+2014-05-07 17:39:09,220 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.dir=/home/hadoop/hbase-0.94.8
+2014-05-07 17:39:09,222 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=ginja-a1:2181 sessionTimeout=60000 watcher=regionserver:60020
+2014-05-07 17:39:09,222 INFO org.apache.hadoop.hbase.regionserver.ShutdownHook: Installed shutdown hook thread: Shutdownhook:regionserver60020
+2014-05-07 17:39:09,231 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: The identifier of this process is 7889@ginja-A1
+2014-05-07 17:39:09,234 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server ginja-a1/146.193.41.141:2181. Will not attempt to authenticate using SASL (unknown error)
+2014-05-07 17:39:09,237 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to ginja-a1/146.193.41.141:2181, initiating session
+2014-05-07 17:39:09,336 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server ginja-a1/146.193.41.141:2181, sessionid = 0x145d78d793a0002, negotiated timeout = 60000
+2014-05-07 17:39:09,380 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: Node /hbase/online-snapshot/acquired already exists and this is not a retry
+2014-05-07 17:39:09,419 INFO org.apache.hadoop.hbase.regionserver.MemStoreFlusher: globalMemStoreLimit=1.6g, globalMemStoreLimitLowMark=1.4g, maxHeap=3.9g
+2014-05-07 17:39:09,421 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Runs every 2hrs, 46mins, 40sec
+2014-05-07 17:39:09,432 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Attempting connect to Master server at ginja-a1,60000,1399480745300
+2014-05-07 17:39:09,477 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Connected to master at ginja-A1/146.193.41.141:60000
+2014-05-07 17:39:09,478 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Telling master at ginja-a1,60000,1399480745300 that we are up with port=60020, startcode=1399480748902
+2014-05-07 17:39:09,496 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Master passed us hostname to use. Was=ginja-a1, Now=ginja-a1
+2014-05-07 17:39:09,599 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: Node /hbase/replication/peers already exists and this is not a retry
+2014-05-07 17:39:09,608 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: Node /hbase/replication/rs already exists and this is not a retry
+2014-05-07 17:39:09,609 INFO org.apache.hadoop.hbase.replication.ReplicationZookeeper: Replication is now started
+2014-05-07 17:39:09,616 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: Node /hbase/replication/state already exists and this is not a retry
+2014-05-07 17:39:09,650 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-07 17:39:09,659 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-07 17:39:09,659 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: HLog configuration: blocksize=64 MB, rollsize=60.8 MB, enabled=true, optionallogflushinternal=1000ms
+2014-05-07 17:39:09,677 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-07 17:39:09,677 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-07 17:39:09,742 INFO org.apache.hadoop.hbase.regionserver.wal.HLog:  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399480749672
+2014-05-07 17:39:09,742 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Using getNumCurrentReplicas--HDFS-826
+2014-05-07 17:39:09,754 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=RegionServer, sessionId=regionserver60020
+2014-05-07 17:39:09,764 INFO org.apache.hadoop.hbase.metrics: MetricsString added: revision
+2014-05-07 17:39:09,764 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsUser
+2014-05-07 17:39:09,764 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsDate
+2014-05-07 17:39:09,764 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsUrl
+2014-05-07 17:39:09,764 INFO org.apache.hadoop.hbase.metrics: MetricsString added: date
+2014-05-07 17:39:09,764 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsRevision
+2014-05-07 17:39:09,764 INFO org.apache.hadoop.hbase.metrics: MetricsString added: user
+2014-05-07 17:39:09,764 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsVersion
+2014-05-07 17:39:09,764 INFO org.apache.hadoop.hbase.metrics: MetricsString added: url
+2014-05-07 17:39:09,764 INFO org.apache.hadoop.hbase.metrics: MetricsString added: version
+2014-05-07 17:39:09,764 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2014-05-07 17:39:09,765 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2014-05-07 17:39:09,765 INFO org.apache.hadoop.hbase.regionserver.metrics.RegionServerMetrics: Initialized
+2014-05-07 17:39:09,775 INFO org.apache.hadoop.hbase.replication.regionserver.ReplicationSourceManager: Current list of replicators: [ginja-a1,60020,1399480748902] other RSs: [ginja-a1,60020,1399480748902]
+2014-05-07 17:39:09,793 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2014-05-07 17:39:09,794 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server listener on 60020: starting
+2014-05-07 17:39:09,794 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server Responder: starting
+2014-05-07 17:39:09,802 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 0 on 60020: starting
+2014-05-07 17:39:09,803 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 1 on 60020: starting
+2014-05-07 17:39:09,803 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 2 on 60020: starting
+2014-05-07 17:39:09,803 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 3 on 60020: starting
+2014-05-07 17:39:09,803 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 4 on 60020: starting
+2014-05-07 17:39:09,803 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 5 on 60020: starting
+2014-05-07 17:39:09,803 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 6 on 60020: starting
+2014-05-07 17:39:09,803 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 7 on 60020: starting
+2014-05-07 17:39:09,804 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 8 on 60020: starting
+2014-05-07 17:39:09,804 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 9 on 60020: starting
+2014-05-07 17:39:09,804 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 0 on 60020: starting
+2014-05-07 17:39:09,804 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 1 on 60020: starting
+2014-05-07 17:39:09,804 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 2 on 60020: starting
+2014-05-07 17:39:09,804 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 3 on 60020: starting
+2014-05-07 17:39:09,804 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 4 on 60020: starting
+2014-05-07 17:39:09,805 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 5 on 60020: starting
+2014-05-07 17:39:09,805 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 6 on 60020: starting
+2014-05-07 17:39:09,805 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 7 on 60020: starting
+2014-05-07 17:39:09,805 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 8 on 60020: starting
+2014-05-07 17:39:09,805 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 9 on 60020: starting
+2014-05-07 17:39:09,807 INFO org.apache.hadoop.ipc.HBaseServer: REPL IPC Server handler 0 on 60020: starting
+2014-05-07 17:39:09,807 INFO org.apache.hadoop.ipc.HBaseServer: REPL IPC Server handler 1 on 60020: starting
+2014-05-07 17:39:09,807 INFO org.apache.hadoop.ipc.HBaseServer: REPL IPC Server handler 2 on 60020: starting
+2014-05-07 17:39:09,809 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Serving as ginja-a1,60020,1399480748902, RPC listening on ginja-a1/146.193.41.141:60020, sessionid=0x145d78d793a0002
+2014-05-07 17:39:09,809 INFO org.apache.hadoop.hbase.regionserver.SplitLogWorker: SplitLogWorker ginja-a1,60020,1399480748902 starting
+2014-05-07 17:39:09,810 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Registered RegionServer MXBean
+2014-05-07 17:39:13,384 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Received request to open region: -ROOT-,,0.70236052
+2014-05-07 17:39:13,469 INFO org.apache.hadoop.hbase.regionserver.HRegion: Setting up tabledescriptor config now ...
+2014-05-07 17:39:13,518 INFO org.apache.hadoop.hbase.regionserver.Store: time to purge deletes set to 0ms in store info
+2014-05-07 17:39:13,520 INFO org.apache.hadoop.hbase.regionserver.Store: hbase.hstore.compaction.min = 3
+2014-05-07 17:39:13,534 ERROR org.apache.hadoop.hbase.regionserver.metrics.SchemaMetrics: Inconsistent configuration. Previous configuration for using table name in metrics: true, new configuration: false
+2014-05-07 17:39:13,541 INFO org.apache.hadoop.hbase.util.ChecksumType: Checksum can use java.util.zip.CRC32
+2014-05-07 17:39:13,608 INFO org.apache.hadoop.hbase.regionserver.HRegion: Onlined -ROOT-,,0.70236052; next sequenceid=3
+2014-05-07 17:39:13,617 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Post open deploy tasks for region=-ROOT-,,0.70236052, daughter=false
+2014-05-07 17:39:13,618 INFO org.apache.hadoop.hbase.catalog.RootLocationEditor: Setting ROOT region location in ZooKeeper as ginja-a1,60020,1399480748902
+2014-05-07 17:39:13,627 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Done with post open deploy task for region=-ROOT-,,0.70236052, daughter=false
+2014-05-07 17:39:14,850 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Received request to open region: .META.,,1.1028785192
+2014-05-07 17:39:14,859 INFO org.apache.hadoop.hbase.regionserver.HRegion: Setting up tabledescriptor config now ...
+2014-05-07 17:39:14,867 INFO org.apache.hadoop.hbase.regionserver.Store: time to purge deletes set to 0ms in store info
+2014-05-07 17:39:14,868 INFO org.apache.hadoop.hbase.regionserver.Store: hbase.hstore.compaction.min = 3
+2014-05-07 17:39:14,875 INFO org.apache.hadoop.hbase.regionserver.HRegion: Onlined .META.,,1.1028785192; next sequenceid=1
+2014-05-07 17:39:14,883 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Post open deploy tasks for region=.META.,,1.1028785192, daughter=false
+2014-05-07 17:39:14,895 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=ginja-a1:2181 sessionTimeout=60000 watcher=hconnection
+2014-05-07 17:39:14,896 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server ginja-a1/146.193.41.141:2181. Will not attempt to authenticate using SASL (unknown error)
+2014-05-07 17:39:14,896 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: The identifier of this process is 7889@ginja-A1
+2014-05-07 17:39:14,896 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to ginja-a1/146.193.41.141:2181, initiating session
+2014-05-07 17:39:14,900 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server ginja-a1/146.193.41.141:2181, sessionid = 0x145d78d793a0004, negotiated timeout = 60000
+2014-05-07 17:39:14,945 WARN org.apache.hadoop.hbase.regionserver.wal.HLog: HDFS pipeline error detected. Found 1 replicas but expecting no less than 3 replicas.  Requesting close of hlog.
+2014-05-07 17:39:14,945 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-07 17:39:14,946 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-07 17:39:14,946 INFO org.apache.hadoop.hbase.catalog.MetaEditor: Updated row .META.,,1.1028785192 with server=ginja-a1,60020,1399480748902
+2014-05-07 17:39:14,946 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Done with post open deploy task for region=.META.,,1.1028785192, daughter=false
+2014-05-07 17:39:14,993 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399480749672, entries=1, filesize=305.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399480754945
+2014-05-07 18:39:15,028 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-07 18:39:15,028 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-07 18:39:15,183 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399480754945, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399484355028
+2014-05-07 18:39:19,806 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: regionserver60020.periodicFlusher requesting flush for region -ROOT-,,0.70236052 after a delay of 13668
+2014-05-07 18:39:29,806 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: regionserver60020.periodicFlusher requesting flush for region -ROOT-,,0.70236052 after a delay of 6145
+2014-05-07 18:39:33,511 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-07 18:39:33,511 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-07 18:39:33,588 INFO org.apache.hadoop.hbase.regionserver.StoreFile: Delete Family Bloom filter type for hdfs://ginja-a1:9000/hbase/-ROOT-/70236052/.tmp/35569074105b4e0e91f5a6a3703c52e8: CompoundBloomFilterWriter
+2014-05-07 18:39:33,606 INFO org.apache.hadoop.hbase.regionserver.StoreFile: NO General Bloom and NO DeleteFamily was added to HFile (hdfs://ginja-a1:9000/hbase/-ROOT-/70236052/.tmp/35569074105b4e0e91f5a6a3703c52e8) 
+2014-05-07 18:39:33,606 INFO org.apache.hadoop.hbase.regionserver.Store: Flushed , sequenceid=5, memsize=368.0, into tmp file hdfs://ginja-a1:9000/hbase/-ROOT-/70236052/.tmp/35569074105b4e0e91f5a6a3703c52e8
+2014-05-07 18:39:33,643 INFO org.apache.hadoop.hbase.regionserver.Store: Added hdfs://ginja-a1:9000/hbase/-ROOT-/70236052/info/35569074105b4e0e91f5a6a3703c52e8, entries=2, sequenceid=5, filesize=802.0
+2014-05-07 18:39:33,645 WARN org.apache.hadoop.hbase.regionserver.wal.HLog: HDFS pipeline error detected. Found 1 replicas but expecting no less than 3 replicas.  Requesting close of hlog.
+2014-05-07 18:39:33,645 INFO org.apache.hadoop.hbase.regionserver.HRegion: Finished memstore flush of ~368.0/368, currentsize=0.0/0 for region -ROOT-,,0.70236052 in 168ms, sequenceid=5, compaction requested=false
+2014-05-07 18:39:33,646 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-07 18:39:33,646 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-07 18:39:33,674 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399484355028, entries=1, filesize=246.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399484373645
+2014-05-07 18:39:33,675 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399480754945 whose highest sequenceid is 4 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1399480754945
+2014-05-07 18:39:33,682 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399484355028 whose highest sequenceid is 5 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1399484355028
+2014-05-07 19:39:33,722 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-07 19:39:33,722 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-07 19:39:33,768 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399484373645, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399487973722
+2014-05-07 19:39:33,770 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399484373645 whose highest sequenceid is 5 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1399484373645
+2014-05-07 20:39:33,808 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-07 20:39:33,808 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-07 20:39:33,859 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399487973722, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399491573808
+2014-05-07 20:39:33,860 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399487973722 whose highest sequenceid is 5 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1399487973722
+2014-05-07 21:39:33,899 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-07 21:39:33,899 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-07 21:39:33,970 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399491573808, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399495173899
+2014-05-07 21:39:33,971 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399491573808 whose highest sequenceid is 5 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1399491573808
+2014-05-07 22:39:34,010 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-07 22:39:34,010 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-07 22:39:34,070 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399495173899, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399498774010
+2014-05-07 22:39:34,071 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399495173899 whose highest sequenceid is 5 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1399495173899
+2014-05-07 23:39:34,110 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2014-05-07 23:39:34,110 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2014-05-07 23:39:34,173 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Roll /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399498774010, entries=0, filesize=134.  for /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399502374109
+2014-05-07 23:39:34,174 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: moving old hlog file /hbase/.logs/ginja-a1,60020,1399480748902/ginja-a1%2C60020%2C1399480748902.1399498774010 whose highest sequenceid is 5 to /hbase/.oldlogs/ginja-a1%2C60020%2C1399480748902.1399498774010
